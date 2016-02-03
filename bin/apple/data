@@ -1,0 +1,16 @@
+Apple LLVM version 5.1 (clang-503.0.38) (based on LLVM 3.4svn)
+Target: x86_64-apple-darwin14.4.0
+Thread model: posix
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1 -triple x86_64-apple-macosx10.10.0 -E -disable-free -disable-llvm-verifier -main-file-name hello.s -mrelocation-model pic -pic-level 2 -mdisable-fp-elim -masm-verbose -munwind-tables -target-cpu core2 -target-linker-version 236.3 -v -resource-dir /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fdebug-compilation-dir /Users/AKSHAY/Desktop/code_prep/Code_Prep/src/apple -ferror-limit 19 -fmessage-length 0 -stack-protector 1 -mstackrealign -fblocks -fobjc-runtime=macosx-10.10.0 -fencode-extended-block-signature -fdiagnostics-show-option -vectorize-slp -o /var/folders/1k/vd0jgs4536z7gh1npwfy70f80000gn/T/hello-ed3112.s -x assembler-with-cpp hello.s
+clang -cc1 version 5.1 based upon LLVM 3.4svn default target x86_64-apple-darwin14.4.0
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/include
+ /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple x86_64-apple-macosx10.10.0 -filetype obj -main-file-name hello.s -target-cpu core2 -fdebug-compilation-dir /Users/AKSHAY/Desktop/code_prep/Code_Prep/src/apple -dwarf-debug-producer Apple LLVM version 5.1 (clang-503.0.38) (based on LLVM 3.4svn) -o /var/folders/1k/vd0jgs4536z7gh1npwfy70f80000gn/T/hello-cc33d1.o /var/folders/1k/vd0jgs4536z7gh1npwfy70f80000gn/T/hello-ed3112.s
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -dynamic -arch x86_64 -macosx_version_min 10.10.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -o a.out /var/folders/1k/vd0jgs4536z7gh1npwfy70f80000gn/T/hello-cc33d1.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/5.1/lib/darwin/libclang_rt.osx.a
